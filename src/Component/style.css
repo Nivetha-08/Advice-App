@@ -1,0 +1,23 @@
+*
+{
+    background: #1b1b1b;
+    color: #eee;
+}
+/* body
+{
+    background-color: rgb(190, 143, 235);
+} */
+
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
